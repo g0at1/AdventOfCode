@@ -21,8 +21,7 @@ public class TrebuchetA {
                     last = Integer.parseInt(str);
                 }
             }
-            first *= 10;
-            sum += first + last;
+            sum += (first * 10) + last;
         }
         System.out.println(sum);
     }
